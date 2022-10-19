@@ -15,7 +15,7 @@ const Contact = () => {
   console.log(players);
   return (
     <div>
-      Contact page
+      Contact pages
       <button onClick={(e) => handleClick(e, 1)}>Add +1</button>
       <Header handleClick={handleClick} data={data} />
       {data}
